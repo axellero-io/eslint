@@ -1,0 +1,46 @@
+{
+  "name": "@axellero/eslint-env",
+  "version": "0.0.0",
+  "description": "Base ESLint environment settings",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslint-config",
+    "axellero",
+    "styleguide"
+  ],
+  "homepage": "https://github.com/axellero-io/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/axellero-io/eslint/issues",
+    "email": "npm@axellero.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axellero-io/eslint.git",
+    "directory": "packages/eslint-env"
+  },
+  "license": "MIT",
+  "author": "Axellero <opensource@axellero.io>",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    ".editorconfig"
+  ],
+  "dependencies": {
+    "editorconfig": "^2.0.0",
+    "tslib": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.0",
+    "@types/node": "^20.4.2",
+    "eslint": "^8.45.0",
+    "typescript": "5.1.6"
+  },
+  "peerDependencies": {
+    "eslint": "^7 || ^8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

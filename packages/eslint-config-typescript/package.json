@@ -1,0 +1,56 @@
+{
+  "name": "@axellero/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "ESLint configuration for TypeScript",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslint-config",
+    "axellero",
+    "styleguide",
+    "typescript",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser"
+  ],
+  "homepage": "https://github.com/axellero-io/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/axellero-io/eslint/issues",
+    "email": "npm@axellero.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axellero-io/eslint.git",
+    "directory": "packages/eslint-config-typescript"
+  },
+  "license": "MIT",
+  "author": "Axellero <opensource@axellero.io>",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "lib",
+    "index.js",
+    "index.d.ts",
+    "with-type-check.js",
+    "with-type-check.d.ts"
+  ],
+  "dependencies": {
+    "@axellero/eslint-config-env": "^0.0.0",
+    "@axellero/eslint-env": "^0.0.0",
+    "tslib": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.0",
+    "@types/node": "^20.4.2",
+    "eslint": "^8.45.0",
+    "typescript": "5.1.6"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4 || ^6",
+    "@typescript-eslint/parser": "^5.4 || ^6",
+    "eslint": "^7 || ^8",
+    "typescript": "^4 || ^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

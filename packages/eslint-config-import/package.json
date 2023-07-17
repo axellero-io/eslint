@@ -1,0 +1,51 @@
+{
+  "name": "@axellero/eslint-config-import",
+  "version": "0.0.0",
+  "description": "ESLint configuration for ES6 Imports and Exports",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslint-config",
+    "axellero",
+    "styleguide",
+    "import"
+  ],
+  "homepage": "https://github.com/axellero-io/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/axellero-io/eslint/issues",
+    "email": "npm@axellero.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axellero-io/eslint.git",
+    "directory": "packages/eslint-config-import"
+  },
+  "license": "MIT",
+  "author": "Axellero <opensource@axellero.io>",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@axellero/eslint-config-env": "^0.0.0",
+    "@axellero/eslint-env": "^0.0.0",
+    "eslint-import-resolver-node": "^0.3.7",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "tslib": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.0",
+    "@types/node": "^20.4.2",
+    "eslint": "^8.45.0",
+    "typescript": "5.1.6"
+  },
+  "peerDependencies": {
+    "eslint": "^7 || ^8",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-simple-import-sort": "^7 || ^10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
