@@ -21,7 +21,7 @@
   </a>
   <a href="https://github.com/axellero-io/eslint/blob/main/LICENSE">
     <img
-      src="https://img.shields.io/github/license/axellero/eslint?label=License"
+      src="https://img.shields.io/github/license/axellero-io/eslint?label=License"
       alt="axellero/eslint repository license"
     />
   </a>
@@ -68,4 +68,4 @@ Any PR is welcomed by our **@js-opensource** team.
 Check out our [contributing](../../CONTRIBUTING.md) guidelines for more info.
 
 ## License
-[![axellero eslint config license](https://img.shields.io/github/license/axellero/eslint?label=as%20always&color=informational)](../../LICENSE)
+[![axellero eslint config license](https://img.shields.io/github/license/axellero-io/eslint?label=as%20always&color=informational)](../../LICENSE)
