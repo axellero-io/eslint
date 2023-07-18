@@ -54,7 +54,7 @@
     ".yarn"
   ],
   "devDependencies": {
-    "@axellero/eslint-config": "^0.0.0",
+    "@axellero/eslint-config": "*",
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@rollup/plugin-typescript": "^11.1.2",

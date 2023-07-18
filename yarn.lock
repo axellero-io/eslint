@@ -177,7 +177,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config@^0.0.0, @axellero/eslint-config@workspace:packages/eslint-config":
+"@axellero/eslint-config@*, @axellero/eslint-config@^0.0.0, @axellero/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -230,7 +230,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@axellero/eslint@workspace:."
   dependencies:
-    "@axellero/eslint-config": ^0.0.0
+    "@axellero/eslint-config": "*"
     "@commitlint/cli": ^17.6.6
     "@commitlint/config-conventional": ^17.6.6
     "@rollup/plugin-typescript": ^11.1.2
