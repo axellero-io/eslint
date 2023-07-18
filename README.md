@@ -31,7 +31,7 @@
 All packages have their respective `peerDependencies` and as long as you add everything required
 by the package, you are good to go.
 
-Packages itself divided by their plugin usage and made independent but at the same time integrated by keeping in mind that they can be used in conjunction with one another.
+Packages themselfs are divided by their plugin usage and made independent but at the same time integrated by keeping in mind that they can be used in conjunction with one another.
 
 Here is just a default script section for some who tend to skip these description parts:
 ```shell
