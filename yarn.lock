@@ -22,7 +22,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@axellero/eslint-config-core@^0.0.0, @axellero/eslint-config-core@workspace:packages/eslint-config-core":
+"@axellero/eslint-config-core@*, @axellero/eslint-config-core@^0.0.0, @axellero/eslint-config-core@workspace:packages/eslint-config-core":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-core@workspace:packages/eslint-config-core"
   dependencies:
@@ -52,7 +52,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-functional@^0.0.0, @axellero/eslint-config-functional@workspace:packages/eslint-config-functional":
+"@axellero/eslint-config-functional@*, @axellero/eslint-config-functional@^0.0.0, @axellero/eslint-config-functional@workspace:packages/eslint-config-functional":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-functional@workspace:packages/eslint-config-functional"
   dependencies:
@@ -68,7 +68,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-import@^0.0.0, @axellero/eslint-config-import@workspace:packages/eslint-config-import":
+"@axellero/eslint-config-import@*, @axellero/eslint-config-import@^0.0.0, @axellero/eslint-config-import@workspace:packages/eslint-config-import":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-import@workspace:packages/eslint-config-import"
   dependencies:
@@ -88,7 +88,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-jest@^0.0.0, @axellero/eslint-config-jest@workspace:packages/eslint-config-jest":
+"@axellero/eslint-config-jest@*, @axellero/eslint-config-jest@^0.0.0, @axellero/eslint-config-jest@workspace:packages/eslint-config-jest":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-jest@workspace:packages/eslint-config-jest"
   dependencies:
@@ -105,7 +105,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-jsx-a11y@^0.0.0, @axellero/eslint-config-jsx-a11y@workspace:packages/eslint-config-jsx-a11y":
+"@axellero/eslint-config-jsx-a11y@*, @axellero/eslint-config-jsx-a11y@^0.0.0, @axellero/eslint-config-jsx-a11y@workspace:packages/eslint-config-jsx-a11y":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-jsx-a11y@workspace:packages/eslint-config-jsx-a11y"
   dependencies:
@@ -121,7 +121,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-prettier@^0.0.0, @axellero/eslint-config-prettier@workspace:packages/eslint-config-prettier":
+"@axellero/eslint-config-prettier@*, @axellero/eslint-config-prettier@^0.0.0, @axellero/eslint-config-prettier@workspace:packages/eslint-config-prettier":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-prettier@workspace:packages/eslint-config-prettier"
   dependencies:
@@ -140,7 +140,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-react@^0.0.0, @axellero/eslint-config-react@workspace:packages/eslint-config-react":
+"@axellero/eslint-config-react@*, @axellero/eslint-config-react@^0.0.0, @axellero/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
@@ -158,7 +158,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-typescript@^0.0.0, @axellero/eslint-config-typescript@workspace:packages/eslint-config-typescript":
+"@axellero/eslint-config-typescript@*, @axellero/eslint-config-typescript@^0.0.0, @axellero/eslint-config-typescript@workspace:packages/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
@@ -177,7 +177,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config@*, @axellero/eslint-config@^0.0.0, @axellero/eslint-config@workspace:packages/eslint-config":
+"@axellero/eslint-config@*, @axellero/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -267,15 +267,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@axellero/tests@workspace:packages/tests"
   dependencies:
-    "@axellero/eslint-config": ^0.0.0
-    "@axellero/eslint-config-core": ^0.0.0
-    "@axellero/eslint-config-functional": ^0.0.0
-    "@axellero/eslint-config-import": ^0.0.0
-    "@axellero/eslint-config-jest": ^0.0.0
-    "@axellero/eslint-config-jsx-a11y": ^0.0.0
-    "@axellero/eslint-config-prettier": ^0.0.0
-    "@axellero/eslint-config-react": ^0.0.0
-    "@axellero/eslint-config-typescript": ^0.0.0
+    "@axellero/eslint-config": "*"
+    "@axellero/eslint-config-core": "*"
+    "@axellero/eslint-config-functional": "*"
+    "@axellero/eslint-config-import": "*"
+    "@axellero/eslint-config-jest": "*"
+    "@axellero/eslint-config-jsx-a11y": "*"
+    "@axellero/eslint-config-prettier": "*"
+    "@axellero/eslint-config-react": "*"
+    "@axellero/eslint-config-typescript": "*"
     "@types/eslint": ^8.44.0
     "@types/jest": ^29.5.3
     "@types/node": ^20.4.2
