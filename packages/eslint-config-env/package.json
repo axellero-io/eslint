@@ -1,6 +1,6 @@
 {
   "name": "@axellero/eslint-config-env",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Base ESLint environment configuration for all @axellero/eslint-config packages",
   "keywords": [
     "config",

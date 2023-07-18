@@ -1,6 +1,6 @@
 {
   "name": "@axellero/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Collection of all @axellero/eslint-config packages",
   "keywords": [
     "config",
@@ -27,14 +27,14 @@
     "lib"
   ],
   "dependencies": {
-    "@axellero/eslint-config-core": "^0.0.0",
-    "@axellero/eslint-config-functional": "^0.0.0",
-    "@axellero/eslint-config-import": "^0.0.0",
-    "@axellero/eslint-config-jest": "^0.0.0",
-    "@axellero/eslint-config-jsx-a11y": "^0.0.0",
-    "@axellero/eslint-config-prettier": "^0.0.0",
-    "@axellero/eslint-config-react": "^0.0.0",
-    "@axellero/eslint-config-typescript": "^0.0.0",
+    "@axellero/eslint-config-core": "^1.0.0",
+    "@axellero/eslint-config-functional": "^1.0.0",
+    "@axellero/eslint-config-import": "^1.0.0",
+    "@axellero/eslint-config-jest": "^1.0.0",
+    "@axellero/eslint-config-jsx-a11y": "^1.0.0",
+    "@axellero/eslint-config-prettier": "^1.0.0",
+    "@axellero/eslint-config-react": "^1.0.0",
+    "@axellero/eslint-config-typescript": "^1.0.0",
     "tslib": "^2.6.0"
   },
   "devDependencies": {
