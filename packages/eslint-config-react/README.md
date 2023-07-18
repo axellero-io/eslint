@@ -1,12 +1,12 @@
 <h1 align="center">
-  <a target="_blank" href="https://axellero.io/en">
-    ✨
+  <a target="_blank" href="https://axellero.io">
     <img
-      height="22.5"
+      height="64"
       src="https://raw.githubusercontent.com/axellero-io/eslint/main/.github/assets/logo.png"
       alt="axellero logo"
     />
-    /eslint-config-react
+    <br/>
+    @axellero/eslint-config-react
   </a>
 </h1>
 
