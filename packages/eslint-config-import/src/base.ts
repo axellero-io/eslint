@@ -66,7 +66,7 @@ export const eslintConfigImportBase: Linter.BaseConfig = {
     'import/no-duplicates': [
       'warn',
       {
-        'prefer-inline': true,
+        'prefer-inline': false,
       },
     ],
     // Ensure consistent use of file extension within the import path.
