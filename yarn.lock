@@ -52,7 +52,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@axellero/eslint-config-functional@*, @axellero/eslint-config-functional@^1.1.0, @axellero/eslint-config-functional@workspace:packages/eslint-config-functional":
+"@axellero/eslint-config-functional@*, @axellero/eslint-config-functional@^1.1.1, @axellero/eslint-config-functional@workspace:packages/eslint-config-functional":
   version: 0.0.0-use.local
   resolution: "@axellero/eslint-config-functional@workspace:packages/eslint-config-functional"
   dependencies:
@@ -182,7 +182,7 @@ __metadata:
   resolution: "@axellero/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@axellero/eslint-config-core": ^1.0.1
-    "@axellero/eslint-config-functional": ^1.1.0
+    "@axellero/eslint-config-functional": ^1.1.1
     "@axellero/eslint-config-import": ^1.0.1
     "@axellero/eslint-config-jest": ^1.0.1
     "@axellero/eslint-config-jsx-a11y": ^1.0.1

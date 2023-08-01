@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/axellero-io/eslint/compare/@axellero/eslint-config-functional@1.1.0...@axellero/eslint-config-functional@1.1.1) (2023-08-01)
+
+
+### Bug Fixes
+
+* **eslint-config-functional:** disable immutable-data for base ([2bc28ae](https://github.com/axellero-io/eslint/commit/2bc28ae3fce693a6c5ac116b89fadfe81ea44b09))
+
+
+
+
+
 # [1.1.0](https://github.com/axellero-io/eslint/compare/@axellero/eslint-config-functional@1.0.1...@axellero/eslint-config-functional@1.1.0) (2023-08-01)
 
 

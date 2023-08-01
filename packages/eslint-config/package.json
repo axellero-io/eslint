@@ -1,6 +1,6 @@
 {
   "name": "@axellero/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collection of all @axellero/eslint-config packages",
   "keywords": [
     "config",
@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "@axellero/eslint-config-core": "^1.0.1",
-    "@axellero/eslint-config-functional": "^1.1.0",
+    "@axellero/eslint-config-functional": "^1.1.1",
     "@axellero/eslint-config-import": "^1.0.1",
     "@axellero/eslint-config-jest": "^1.0.1",
     "@axellero/eslint-config-jsx-a11y": "^1.0.1",
