@@ -25,25 +25,7 @@ export const eslintConfigFunctionalBase: Linter.BaseConfig = {
     // Enforces using functions directly if they can be without wrapping them.
     'functional/prefer-tacit': 'off',
     // Disallow mutating objects and arrays.
-    'functional/immutable-data': [
-      'error',
-      {
-        ignoreClasses: 'fieldsOnly',
-        ignoreImmediateMutation: true,
-        ignoreNonConstDeclarations: true,
-        ignoreAccessorPattern: [
-          // Next.js page properties.
-          '*.getInitialProps',
-          // React component properties.
-          '*.defaultProps',
-          '*.propTypes',
-          '*.displayName',
-          // Node.js module resolution.
-          'module.exports',
-          'exports',
-        ],
-      },
-    ],
+    'functional/immutable-data': 'off',
     // Disallow mutable variables.
     'functional/no-let': 'error',
     // Disallow imperative loops.
