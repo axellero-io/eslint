@@ -51,7 +51,11 @@ $ yarn add -D @axellero/eslint-config-functional
     "extends": [
       "@axellero/eslint-config-functional",
       // Read more about strict config below...
-      "@axellero/eslint-config-functional/strict"
+      "@axellero/eslint-config-functional/strict",
+      // WARNING.
+      // Requires tsconfig to be presented in `parserOptions.project`.
+      // May cause performance problems, so we don't recommend adding it right away.
+      "@axellero/eslint-config-functional/with-type-check"
     ]
   }
 }

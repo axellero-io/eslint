@@ -30,7 +30,9 @@
     "index.js",
     "index.d.ts",
     "strict.js",
-    "strict.d.ts"
+    "strict.d.ts",
+    "with-type-check.js",
+    "with-type-check.d.ts"
   ],
   "dependencies": {
     "@axellero/eslint-config-env": "^1.0.1",
