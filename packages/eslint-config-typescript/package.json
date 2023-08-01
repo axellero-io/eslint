@@ -1,6 +1,6 @@
 {
   "name": "@axellero/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for TypeScript",
   "keywords": [
     "config",
@@ -34,8 +34,8 @@
     "with-type-check.d.ts"
   ],
   "dependencies": {
-    "@axellero/eslint-config-env": "^1.0.0",
-    "@axellero/eslint-env": "^1.0.0",
+    "@axellero/eslint-config-env": "^1.0.1",
+    "@axellero/eslint-env": "^1.0.1",
     "tslib": "^2.6.1"
   },
   "devDependencies": {
