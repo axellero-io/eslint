@@ -28,9 +28,9 @@ export const eslintConfigFunctionalBase: Linter.BaseConfig = {
     'functional/immutable-data': [
       'error',
       {
-        assumeTypes: false,
         ignoreClasses: 'fieldsOnly',
         ignoreImmediateMutation: true,
+        ignoreNonConstDeclarations: true,
         ignoreAccessorPattern: [
           // Next.js page properties.
           '*.getInitialProps',
